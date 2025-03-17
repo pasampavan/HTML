@@ -1,2 +1,4 @@
-# HTML
-HTML Basics to Advance
+- HTML (HyperText Markup Language) is the standard language for creating web pages.
+- It provides the structure of a webpage and is used in conjunction with CSS (for styling) and JavaScript (for interactivity).
+- Basic Structure of an HTML Document:
+  - Find in basics.html file <a href="https://www.google.com/maps">Link</a>
