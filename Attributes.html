@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML Attributes</title>
+</head>
+<body>
+<h3 style="text-align: center">This is our Day.2 in Learning HTML From Basics to Advance</h3>
+<h3 style="color: cadetblue;">HTML Attributes :</h3>
+<p>All HTML Elements can have attributes.</p>
+<ol>
+  <li>Attributes - It provides provides additional info about elements.</li>
+  <li>We can specify them only in start tag</li>
+  <li>It should be in name:value pair <b>Eg : name="value"</b></li>
+</ol>
+<p> Let's See Them....</p>
+<p style="color: cadetblue;"><b><u>href Attribute:</u></b></p>
+<p>It is used in "a" tag which defines hyperlink.<b style="color: darkred;">What Actual href does is ?</b> It specifies the URL of the page the link should go.</p>
+<hr>
+<p style="color: cadetblue;"><b><u>Target Attribute:</u></b><p>
+<p> Basically, If we provide the link in href, by default it will display in current browser window. So If you want to open in another window/browser, we must specify the target attribute for the link.</p>
+The target attribute specifies where to open the linked document.It can be done in my ways: </p>
+<ol>
+  <li>_self - Default. Opens the document in the same window/tab as it was clicked</li>
+  <li>_blank - Opens the document in a new window or tab</li>
+  <li> For Ex: With Target Value <a href="https://www.youtube.com/" target="_blank">Visit youtube!</a>  </li>
+  <li>Without target value ; <a href="https://www.youtube.com/" >Visit youtube!</a> </li>
+</ol>
+<hr>
+<p style="color: cadetblue;"><b><u>src Attribute:</u></b>
+<p> src  attribute - It is used to specify the source or location of an external resource. It is commonly used with elements like img,script,iframe,audio,video.There are two ways to specify the URL in src attributes</p>
+<b style="color: darkred;">Key Points about src :</b>
+<p>Absolute vs Relative URL's</p>
+<ol>
+  <li ><b style="color: darkred;">Absolute URL:</b> Links to an external image that is hosted on another website. Example: src="https://www.w3schools.com/images/img_girl.jpg".</li>
+  <li><b style="color: darkred;">Relative URL : </b> A relative URL is a shortened web address that points to a file (like an image) within the same website. It doesn’t include the full domain name (e.g., https://example.com). Instead, it’s based on the current location of the file you’re working with.</li>
+  <li style="color: blueviolet;">If the URL starts without a slash (e.g., src="img_girl.jpg"); The browser looks for the file in the same folder as the current page.</li>
+  <li style="color: blueviolet;">If the URL starts with a slash (e.g., src="/images/img_girl.jpg"); The browser looks for the file starting from the root folder of the website.</li>
+  <li> We can also specify the height and width of the images, using height and width aatributes.</li>
+  <img src="img_girl.jpg" width="500" height="600" alt="Image">
+</ol>
+<hr>
+<p style="color: cadetblue;"><b><u>alt Attribute:</u></b>
+<p> The required alt attribute for the <img> tag specifies an alternate text for an image, if the image for some reason cannot be displayed. This can be due to a slow connection, or an error in the src attribute, or if the user uses a screen reader.<br> If above image, you can observe it.</p>
+<hr>
+
+
+
+</body>
+</html>
