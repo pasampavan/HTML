@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+</head>
+<body>
+<p style="text-align: center"><b style="color: darkred ;"><u>Forms in HTML</u> </b></p>
+<p> HTML forms are used to collect user input on web pages. They allow users to enter data, which can then be sent to a server for processing. Forms are created using the "form" element, and they can contain various types of input elements, such as text fields, checkboxes, radio buttons, dropdown menus, and more.</p>
+<ol>
+    <li >Text Input :
+        <br><br>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+    </li><br>
+    <li>Password Input: :
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+    </li><br>
+    <li>TextArea :
+        <label for="text"> Message</label>
+        <textarea id="text" name="text"></textarea>
+    </li><br>
+    <li>Checkbox :
+        <label for="checkbox"> Subscribe Now</label>
+        <input type="checkbox" id="checkbox" name="checkbox" value="Tick">
+    </li><br>
+    <li>Radio Buttons :
+        <label for="male">Male</label>
+        <input type ="radio" id="male" name="gender" value="Male">
+        <label for="female">Female</label>
+        <input type ="radio" id="female" name="gender" value="Female">
+    </li><br>
+    <li>DropDown Menu: "select - create a dropdown menu" ; "option - Defines an option in the dropdown menu"
+        <br><br>
+        <label for="country">Country :</label>
+        <select id="country" name="country">
+            <option value="US">United States</option>
+            <option value="CA">Canada</option>
+            <option value="Dubai">Dubai</option>"
+        </select>
+    </li>
+    <br>
+    <li> Submit Button:
+        <label for="but">Button :</label>
+        <input type="submit" value="Submit" id="but">
+    </li><br>
+    <li> Rest Button:
+        <label for="rest">Rest Button :</label>
+        <input type="reset" value="Reset" id="rest">
+    </li><br>
+    <li>File Input :
+        <label for="file">File upload </label>
+        <input type="file" id="file" name="file">
+    </li>
+<hr>
+<p> Let's see some examples </p>
+<form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required><br><br>
+
+    <label for="gender">Gender:</label>
+    <input type="radio" id="male" name="gender" value="male"> Male
+    <input type="radio" id="female" name="gender" value="female"> Female<br><br>
+
+    <label for="country">Country:</label>
+    <select id="country" name="country">
+        <option value="us">United States</option>
+        <option value="ca">Canada</option>
+        <option value="uk">United Kingdom</option>
+    </select><br><br>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message"></textarea><br><br>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+</form>
+
+
+
+</ol>
+</body>
+</html>

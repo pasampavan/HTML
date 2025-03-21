@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Tables</title>
+</head>
+<style>
+    table ,th,td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+</style>
+<body>
+<h4 style="color: saddlebrown; text-align: center"><u>Tables in HTML</u></h4>
+<p>It is used to allow web developers to arrange data into rows & columns.</p>
+<p> Key Elements need to remember : <br>
+<ol>
+    <li>table - defines the table.</li>
+    <li>th- Defines table header cell</li>
+    <li>tr - Defines a table row.</li>
+    <li>td -Defines a table data cell.</li>
+    <li>Caption - Adds a caption to the table.</li>
+    <li>thead - Groups the header content.</li>
+    <li>tbody - Groups the body content</li>
+    <li>tfoot - Groups the footer content.</li>
+</ol>
+<hr>
+</p>
+
+<p>Example.1 :</p>
+<table>
+    <tr>
+        <th>Company</th>
+        <th>Contact</th>
+        <th>Country</th>
+    </tr>
+    <tr>
+        <td>Alfreds Futterkiste</td>
+        <td>Maria Anders</td>
+        <td>Germany</td>
+    </tr>
+    <tr>
+        <td>Centro Commerical</td>
+        <td>Francisco Change</td>
+        <td>Mexico</td>
+    </tr>
+</table>
+<hr>
+<p> We can set, table border, border radius for tables/rows/columns. We can also change the background color of table/column/rows. We can also set width/height of a table/row.</p>
+<p>Example.2 :</p>
+<table style="width:80%">
+    <tr>
+        <th></th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wedensday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+    </tr>
+    <tr>
+        <td>8:00</td>
+        <td>Science</td>
+        <td>Maths</td>
+        <td>English</td>
+        <td>Telugu</td>
+        <td>Hindi</td>
+
+    </tr>
+    <tr>
+        <td>9:00</td>
+        <td>Science</td>
+        <td>Maths</td>
+        <td>English</td>
+        <td>Telugu</td>
+        <td>Hindi</td>
+    </tr>
+    <tr>
+        <td>10:00</td>
+        <td>Maths</td>
+        <td>English</td>
+        <td>Science</td>
+        <td>Telugu</td>
+        <td>Hindi</td>
+    </tr>
+    <tr>
+        <td>11:00</td>
+        <td>Science</td>
+        <td>Telugu</td>
+        <td>English</td>
+        <td>Maths</td>
+        <td>Hindi</td>
+    </tr>
+    <tr>
+        <td>12:00</td>
+        <td>Hindi</td>
+        <td>Maths</td>
+        <td>English</td>
+        <td>Science</td>
+        <td>Hindi</td>
+    </tr>
+</table> <hr>
+<p>Example:3</p>
+<table style="width:50%">
+    <tr>
+        <th colspan="2"> Name</th>
+        <th>Age</th>
+    </tr>
+    <tr>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>50</td>
+    </tr>
+    <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94</td>
+    </tr>
+</table>
+<hr>
+<p>Example:4</p>
+<table style="width:80%;text-align: center">
+    <caption>Monthly Savings</caption>
+    <tr>
+        <th>Month</th>
+        <th>Savings</th>
+    </tr>
+    <tr>
+        <td>January</td>
+        <td>$150</td>
+    </tr>
+    <tr>
+        <td>February</td>
+        <td>$100</td>
+    </tr>
+</table>
+<hr>
+<p ><b style="color: darkred"> <u>What is Padding?</u></b>
+    <ol>
+    <li>Cell padding is the space between the cell edges and the cell content.(inside the cell).</li>
+    <li>By default the padding is set to 0.</li>
+    <li> To add padding on table cells, use the CSS padding property</li>
+    <li>To add padding only above the content, use the padding-top property.</li>
+    <li>Add padding to the other sides with the padding-bottom, padding-left, and padding-right properties.</li>
+</ol>
+</p>
+<hr>
+<p ><b style="color: darkred"> <u>What is Cell Spacing?</u></b>
+<ol>
+    <li>Cell spacing is the space between each cell.</li>
+    <li>By default the space is set to 2 pixels.</li>
+    <li>To change the space between table cells, use the CSS border-spacing property on the table element</li>
+</ol></p>
+<hr>
+
+
+
+
+</body>
+</html>
